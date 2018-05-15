@@ -1,0 +1,81 @@
+.docs-platform-label.is-dotcom-vip {
+    background-color: rgba(79,116,142,.11);
+    border-color: #4f748e;
+}
+.docs-platform-label {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 48px;
+    padding: 24px;
+}
+@media (min-width: 1020px){
+    .post-inner {
+        font-size: 18px;
+    }}
+.docs-platform-label-icon {
+    height: 34px;
+    margin: 6px 18px 6px 0;
+    width: 34px;
+}
+@media (max-width: 700px) and (min-width: 580px), (min-width: 1020px){
+    .docs-platform-label-content {
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }}
+.docs-platform-label-content {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+@media (max-width: 700px) and (min-width: 580px), (min-width: 1020px){
+    .docs-platform-label-content-text {
+        padding-right: 18px;
+    }}
+.docs-platform-label-content-text {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+.docs-platform-label-content-text-title {
+    color: #151e25;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1;
+    margin: 0 0 6px;
+}
+.docs-platform-label-content-text-desc {
+    color: #62707a;
+    font-size: 14px;
+    line-height: 21px;
+    margin: 0;
+}
+.docs-platform-label-content-link.is-dotcom-vip {
+    color: #4f748e;
+}
+@media (max-width: 700px) and (min-width: 580px), (min-width: 1020px){
+    .docs-platform-label-content-link {
+        margin: 0;
+        text-align: right;
+    }}
+.docs-platform-label-content-link {
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 4px 0 0;
+}
