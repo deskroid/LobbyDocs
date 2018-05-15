@@ -15,7 +15,7 @@
 	function vip_add_content($content) {
 		global $post;
 		
-		if (in_category( 2, $post ) && !is_feed() && !is_home()) {
+		if (in_category( 609538684, $post ) && !is_feed() && !is_home()) {
 			$original = $content;
 			$content = include "banner.html";
 			$content = trim($content,"1");
