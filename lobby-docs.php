@@ -7,7 +7,7 @@
 	Version: 1.0
 	Author: deskroid
 	Author URI: https://deskroid.blog
-	License: GPL2
+	Licen: GPL2
 	*/
 	
 	add_filter( 'the_content', 'vip_add_content' );
